@@ -89,8 +89,9 @@ body {
   justify-content: center;
   border-radius: var(--border);
   background-color: #0E0E13;
-  padding: 10px 0;
+  padding: 16px 24px;
   /* 上下20px，左右0 */
+  gap: 16px; /* 元素之间间距为 16px，可自行调整 */
 }
 
 .magical::before, .magical::after {
