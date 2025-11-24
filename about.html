@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asorn - About Me</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/favicon.svg"/>
+</head>
+<body>
+    <canvas class="fireworks"></canvas>
+    <div class="head">
+        <div class="main">
+            <a href="./index.html" class="logo"><img src="./assets/public/nK logo.svg"></a>
+            <div class="menu">
+                <li class="magical btn" onclick="window.location.href='./index.html'">首页</li>
+                <li class="magical btn" onclick="window.location.href='./work.html'">作品集</li>
+                <li class="magical btn nav" onclick="window.location.href='./about.html'">关于</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn" onclick="window.location.href='./index.html'">首页</li>
+                    <li class="magical btn" onclick="window.location.href='./work.html'">作品集</li>
+                    <li class="magical btn nav" onclick="window.location.href='./about.html'">关于</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="./assets/public/logo.svg"></blockquote>
+    </div>
+    <div class="about">
+        <div class="about-top">
+            <div class="about-name">吴冰洋</div>
+            <div class="about-info">
+                <div class="about-info-left">
+                    <div class="about-info-title">介绍</div>
+                    <div class="introduce-desc">
+                      👨🏻‍💻目前是一名热爱生活的UI设计师，专注将美感与技术创新融合，为用户提供实用且具有美感的体验，我立志成为一名优秀的高级UI设计师。 
+                      <br> 
+                      <br> 
+                      💪我希望通过不断学习与实践，能在未来的设计旅途中，创作一些新颖的产品体验。我相信，优秀的设计不仅能解决现实问题，也能激发情感共鸣，为人们带来积极的影响。
+                      <br> 
+                      <br> 
+                      🙋🏻在行业经验方向，我拥有三年都UI设计实践经验，期间参与了多个从概念到上线的项目建设，覆盖了移动端应用，Web界面设计等多个领域。我擅长在快节奏的环境中保持设计的一致性和高质量，每一次成功的案例都加深了我对业务与用户体验的理解。
+                      <br> 
+                      <br> 
+                      👀我一直对于最新的设计趋势保持密切的关注。当前，我特别关注于可访问性设计、动态效果的微妙运用以及人工智能在设计中的辅助作用。我认为，随着技术的发展，设计应更加注重包容性，同时利用新技术创造更加沉浸式和个性化的用户体验。
+                    </div>
+                </div>
+                <div class="about-info-right">
+                    <div class="contact">
+                        <div class="about-info-title">联系</div>
+                        <div class="contact-desc">
+                            <div class="list">
+                                <div class="list-label">Email：</div>
+                                <div href="javascript:" class="list-value" id="email" tabindex="0" role="button"  title="点击复制邮箱">
+                                    <a id="emailCopied">1504759881@qq.com</a>
+                                </div>
+                                <span class="list-value copied">copied&nbsp;✓</span>
+                            </div>
+                            <div class="list">
+                                <div class="list-label">Wechat：</div>
+                                <div class="list-value">
+                                    <a class="tooltip">Y18586122481
+                                        <div class="tooltip-box">
+                                            <img src="./assets/about/wechat.png">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume">
+                        <div class="about-info-title resume-title">简历</div>
+                        <div class="resume-desc">
+                            <div class="resume-desc-helptext">Download my resume (PDF & 2.5MB)</div>
+                            <div class="magical resume-btn"><a href="https://asorn.cn/" target="_blank">Download</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-middle">
+            <div class="power">
+                <div class="list-00">
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">3</div>
+                            <div class="card-text">工作年限</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">10⁺</div>
+                            <div class="card-text">参与项目</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">80⁺</div>
+                            <div class="card-text">视觉产出</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">30⁺</div>
+                            <div class="card-text">学习文章总结</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="list-01">
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/abstract.svg')"></div>
+                            <div class="card-text">精准把握用户需求和产品定位，合理的交互和界面</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/menu.svg')"></div>
+                            <div class="card-text">结构、系统化设计思维，注重用户体验与数据驱动</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/code.svg')"></div>
+                            <div class="card-text">开发、角色共情能力，利用工程化思维解决问题</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/pin.svg')"></div>
+                            <div class="card-text">具备研发团队协作经验，深度参与产品开发全部流程</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/pen.svg')"></div>
+                            <div class="card-text">拥有的 B、C 端行业产品设计经验，像素强迫症</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-bottom">
+            <div class="experience">
+<div class="item">
+                    <div class="time">❖ 2024.07 ~ 2025.9</div>
+                    <div class="name">
+                        <div class="company"><a href="https://asorn.cn/" target="_blank">深圳市卓力信息科技有限公司</a></div>
+                        <div class="job">UI设计师</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">深关数小程序&海关后台系统&IP设计</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>行业定位：互联网 + 政务、企业服务，覆盖 B 端系统与 C 端应用。</li>
+                                    <li>岗位高频能力匹配：B 端复杂界面、C 端视觉整合、多项目并行
+【B 端海关系统界面优化与规范统一】
+       核心挑战：海关 PC 端页面复杂，操作效率低，多系统视觉风格零散；
+工具与行动：用Figma优化深关数页面（70 + 张）、深数运维管理系统大数据大屏，统一多系统视觉规范；
+</li>
+                                    <li>成果：交付 200 + 页面设计，统一多系统视觉语言，用户操作效率提升 25%，推动功能界面迭代，用户反馈 “界面一致性” 评分提升 15%。</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="time">❖ 2022.06 ~ 2024.5</div>
+                    <div class="name">
+                        <div class="company"><a href="https://asorn.cn/" target="_blank">武汉市铭科互联网技术有限公司</a></div>
+                        <div class="job">UI设计师</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">摩多盒&后台系统</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>行业定位：行业，覆盖 C 端（iOS/Android 移动端）与 B 端（PC 管理端）界面设计</li>
+                                    <li>岗位高频能力匹配：多端设计规范、运营视觉、组件库提效
+【多端界面规范与运营视觉落地】
+</li>
+                                    <li>核心挑战：多端（移动 + PC）界面风格不统一，运营活动需求迭代快，上线效率待提升
+行动与工具：与业务、产品、研发团队紧密协作，同步设计与落地进度；
+</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <div>© 2023 Design by Asorn</a></div>
+            <span>|</span>
+            <div class="fillings">
+                感谢Asorn的开源</a>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="shape-light"></div>
+        <div class="shape-star">
+            <div class="rising-stars rising-stars-visible">
+                <div style="height:1px;width:1px"></div>
+                <div style="height:2px;width:2px"></div>
+                <div style="height:1px;width:1px"></div>
+            </div>
+        </div>
+        <div class="shape-earth"></div>
+    </div>
+</body>
+<script src="./js/main.min.js"></script>
+<script src='./js/anime.js'></script>
+<script src='./js/firework.js'></script>
+</html>
