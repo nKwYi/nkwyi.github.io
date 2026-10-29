@@ -58,7 +58,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-size: 12px;
+    font-size: .75rem;
     text-decoration: unset;
 }
 
@@ -319,8 +319,8 @@ body {
 //尾部
 .footer {
     padding: 60px 40px 20px 40px;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: .75rem;
+    line-height: 1.25rem;
     color: $color-text-body-tertiary;
 
     .copyright {
@@ -425,7 +425,7 @@ body {
     min-height: calc(100vh - 100px); /* 防止项目数量不够一屏高度时 footer 上移 */
 
     @mixin H1 {
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 700;
         background: linear-gradient(180deg, $color-text-body-primary 0%, rgba($color-text-body-primary, 0.72) 100%);
         background-clip: text;
@@ -447,7 +447,7 @@ body {
             gap: 8px;
 
             * {
-                font-size: 32px;
+                font-size: 2rem;
                 font-weight: 700;
             }
 
@@ -475,10 +475,10 @@ body {
         }
 
         .hello-desc {
-            height: 28px;
+            height: auto;
             color: $color-text-body-secondary;
-            font-size: 16px;
-            line-height: 28px;
+            font-size: 1rem;
+            line-height: 1.75rem;
             font-weight: 300;
             letter-spacing: 1px;
             margin: 24px 0 0 0;
@@ -596,9 +596,9 @@ body {
 
                         .info-title {
                             width: 100%;
-                            font-size: 14px;
+                            font-size: .875rem;
                             font-weight: 500;
-                            line-height: 24px;
+                            line-height: 1.5rem;
                             background: linear-gradient(180deg, $color-text-body-primary 0%, rgba($color-text-body-primary, .72) 100%);
                             background-clip: text;
                             -webkit-background-clip: text;
@@ -607,9 +607,9 @@ body {
 
                         .info-desc {
                             width: 100%;
-                            font-size: 12px;
+                            font-size: .75rem;
                             font-weight: 400;
-                            line-height: 20px;
+                            line-height: 1.25rem;
                             color: $color-text-body-secondary;
                         }
                     }
@@ -703,8 +703,8 @@ body {
                             gap: 4px;
 
                             .name {
-                                font-size: 14px;
-                                line-height: 24px;
+                                font-size: .875rem;
+                                line-height: 1.5rem;
                                 font-weight: 500;
                                 background: linear-gradient(180deg, $color-text-body-primary 0%, rgba($color-text-body-primary, 0.72) 100%);
                                 background-clip: text;
@@ -719,7 +719,7 @@ body {
                         }
 
                         .tag {
-                            font-size: 12px;
+                            font-size: .75rem;
                             line-height: 100%;
                             font-weight: 500;
                             padding: 4px 8px;
@@ -764,8 +764,8 @@ body {
 
                     .desc {
                         width: 100%;
-                        font-size: 12px;
-                        line-height: 20px;
+                        font-size: .75rem;
+                        line-height: 1.25rem;
                         color: $color-text-body-secondary;
                     }
                 }
@@ -846,8 +846,8 @@ body {
                             gap: 6px;
 
                             .name {
-                                font-size: 16px;
-                                line-height: 28px;
+                                font-size: 1rem;
+                                line-height: 1.75rem;
                                 font-weight: 500;
                                 background: linear-gradient(180deg, $color-text-body-primary 0%, rgba($color-text-body-primary, 0.72) 100%);
                                 background-clip: text;
@@ -857,8 +857,8 @@ body {
                             }
 
                             .link {
-                                font-size: 16px;
-                                line-height: 28px;
+                                font-size: 1rem;
+                                line-height: 1.75rem;
                                 font-weight: 500;
                                 color: $color-brand-default;
                                 opacity: 0;
@@ -867,8 +867,8 @@ body {
                         }
 
                         .tag {
-                            font-size: 14px;
-                            line-height: 24px;
+                            font-size: .875rem;
+                            line-height: 1.5rem;
                             font-weight: 400;
                             color: $color-text-body-tertiary;
                         }
@@ -876,8 +876,8 @@ body {
 
                     .desc {
                         width: 100%;
-                        font-size: 14px;
-                        line-height: 24px;
+                        font-size: .875rem;
+                        line-height: 1.5rem;
                         font-weight: 400;
                         color: $color-text-body-secondary;
                     }
@@ -898,15 +898,15 @@ body {
                     }
 
                     .info-name {
-                        font-size: 12px;
-                        line-height: 20px;
+                        font-size: .75rem;
+                        line-height: 1.25rem;
                         font-weight: 400;
                         color: $color-text-body-secondary;
                     }
 
                     .info-time {
-                        font-size: 12px;
-                        line-height: 20px;
+                        font-size: .75rem;
+                        line-height: 1.25rem;
                         font-weight: 400;
                         color: $color-text-body-tertiary;
                     }
@@ -939,7 +939,7 @@ body {
     }
 
     .about-name {
-        font-size: 32px;
+        font-size: 2rem;
         line-height: 100%;
         font-weight: 700;
         margin-bottom: 48px;
@@ -955,7 +955,7 @@ body {
     }
 
     .about-info-title {
-        font-size: 18px;
+        font-size: 1.125rem;
         line-height: 100%;
         font-weight: 500;
         margin-bottom: 24px;
@@ -969,13 +969,13 @@ body {
         max-width: 696px;
 
         .introduce-desc {
-            font-size: 14px;
-            line-height: 24px;
+            font-size: .875rem;
+            line-height: 1.5rem;
             color: $color-text-body-secondary;
 
             a {
-                font-size: 14px;
-                line-height: 24px;
+                font-size: .875rem;
+                line-height: 1.5rem;
                 font-weight: 500;
                 text-decoration: underline;
                 color: $color-text-body-secondary;
@@ -995,8 +995,8 @@ body {
         min-width: 200px;
 
         .contact-desc {
-            font-size: 14px;
-            line-height: 24px;
+            font-size: .875rem;
+            line-height: 1.5rem;
             color: $color-text-body-secondary;
 
             .list {
@@ -1004,14 +1004,14 @@ body {
                 flex-direction: row;
 
                 .list-label {
-                    font-size: 14px;
-                    line-height: 24px;
+                    font-size: .875rem;
+                    line-height: 1.5rem;
                 }
 
                 .list-value {
                     a {
-                        font-size: 14px;
-                        line-height: 24px;
+                        font-size: .875rem;
+                        line-height: 1.5rem;
                         color: $color-text-body-secondary;
                         transition: color .15s ease-in;
                         text-decoration: underline;
@@ -1045,8 +1045,8 @@ body {
             align-items: flex-start;
 
             .resume-desc-helptext {
-                font-size: 12px;
-                line-height: 20px;
+                font-size: .75rem;
+                line-height: 1.25rem;
                 color: $color-text-body-tertiary;
                 margin-bottom: 16px;
             }
@@ -1064,8 +1064,8 @@ body {
                 }
 
                 a {
-                    font-size: 12px;
-                    line-height: 20px;
+                    font-size: .75rem;
+                    line-height: 1.25rem;
                     color: $color-text-body-primary;
                     text-decoration: none;
                 }
@@ -1144,8 +1144,8 @@ body {
                     }
 
                     .card-text {
-                        font-size: 12px;
-                        line-height: 20px;
+                        font-size: .75rem;
+                        line-height: 1.25rem;
                         color: $color-text-body-secondary;
                         opacity: .8;
                         transition: opacity .2s;
@@ -1172,8 +1172,8 @@ body {
                     }
 
                     .card-title {
-                        font-size: 18px;
-                        line-height: 28px;
+                        font-size: 1.125rem;
+                        line-height: 1.75rem;
                         font-weight: 500;
                         background: linear-gradient(180deg, $color-text-body-primary 0%, rgba($color-text-body-primary, 0.72) 100%);
                         background-clip: text;
@@ -1184,8 +1184,8 @@ body {
                     }
 
                     .card-text {
-                        font-size: 12px;
-                        line-height: 20px;
+                        font-size: .75rem;
+                        line-height: 1.25rem;
                         color: $color-text-body-secondary;
                         opacity: .8;
                         transition: opacity .2s;
@@ -1213,8 +1213,8 @@ body {
                 gap: 16px;
 
                 .time {
-                    font-size: 14px;
-                    line-height: 24px;
+                    font-size: .875rem;
+                    line-height: 1.5rem;
                     color: $color-text-body-secondary;
                 }
 
@@ -1225,8 +1225,8 @@ body {
 
                     .company {
                         a {
-                            font-size: 14px;
-                            line-height: 24px;
+                            font-size: .875rem;
+                            line-height: 1.5rem;
                             color: $color-text-body-secondary;
                             transition: color .15s ease-in;
 
@@ -1237,8 +1237,8 @@ body {
                     }
 
                     .job {
-                        font-size: 12px;
-                        line-height: 20px;
+                        font-size: .75rem;
+                        line-height: 1.25rem;
                         color: $color-text-body-tertiary;
                     }
                 }
@@ -1254,8 +1254,8 @@ body {
                         gap: 16px;
 
                         .title {
-                            font-size: 14px;
-                            line-height: 24px;
+                            font-size: .875rem;
+                            line-height: 1.5rem;
                             font-weight: 500;
                             background: linear-gradient(180deg, $color-text-body-primary 0%, rgba($color-text-body-primary, 0.72) 100%);
                             background-clip: text;
@@ -1267,8 +1267,8 @@ body {
                             color: $color-text-body-secondary;
 
                             li {
-                                font-size: 14px;
-                                line-height: 28px;
+                                font-size: .875rem;
+                                line-height: 1.75rem;
                                 list-style: circle;
                             }
                         }
@@ -1323,4 +1323,16 @@ body {
             opacity: 1;
         }
     }
+}
+
+html {
+    font-size: 16px;
+}
+@media screen and (min-width: 1921px) {
+    html { font-size: 20px; }
+    body { line-height: 1.6; }
+}
+@media screen and (min-width: 2401px) {
+    html { font-size: 24px; }
+    body { line-height: 1.6; }
 }

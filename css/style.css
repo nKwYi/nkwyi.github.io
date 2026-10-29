@@ -45,7 +45,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  font-size: 12px;
+  font-size:.75rem;
   text-decoration: unset;
 }
 
@@ -294,8 +294,8 @@ body {
 
 .footer {
   padding: 60px 40px 20px 40px;
-  font-size: 12px;
-  line-height: 20px;
+  font-size:.75rem;
+  line-height:1.25rem;
   color: #62616F;
 }
 
@@ -476,12 +476,12 @@ body {
 }
 
 .index .hello .title * {
-  font-size: 32px;
+  font-size:2rem;
   font-weight: 700;
 }
 
 .index .hello .title .title-hi {
-  font-size: 32px;
+  font-size:2rem;
   font-weight: 700;
   background: linear-gradient(180deg, #E8E8F6 0%, rgba(232, 232, 246, 0.72) 100%);
   background-clip: text;
@@ -508,10 +508,10 @@ body {
 }
 
 .index .hello .hello-desc {
-  height: 28px;
+  height:auto;
   color: #B3B3C1;
-  font-size: 16px;
-  line-height: 28px;
+  font-size:1rem;
+  line-height:1.75rem;
   font-weight: 300;
   letter-spacing: 1px;
   margin: 24px 0 0 0;
@@ -573,7 +573,7 @@ body {
 }
 
 .index .quickly-link .title-hi {
-  font-size: 32px;
+  font-size:2rem;
   font-weight: 700;
   background: linear-gradient(180deg, #E8E8F6 0%, rgba(232, 232, 246, 0.72) 100%);
   background-clip: text;
@@ -671,9 +671,9 @@ body {
 
 .index .quickly-link .link-card .link-card-list .link-card-item .info .info-title {
   width: 100%;
-  font-size: 14px;
+  font-size:.875rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height:1.5rem;
   background: linear-gradient(180deg, #E8E8F6 0%, rgba(232, 232, 246, 0.72) 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -682,9 +682,9 @@ body {
 
 .index .quickly-link .link-card .link-card-list .link-card-item .info .info-desc {
   width: 100%;
-  font-size: 12px;
+  font-size:.75rem;
   font-weight: 400;
-  line-height: 20px;
+  line-height:1.25rem;
   color: #B3B3C1;
 }
 
@@ -788,8 +788,8 @@ body {
 }
 
 .work .card-list .item a .text .title-area .title .name {
-  font-size: 14px;
-  line-height: 24px;
+  font-size:.875rem;
+  line-height:1.5rem;
   font-weight: 500;
   background: linear-gradient(180deg, #E8E8F6 0%, rgba(232, 232, 246, 0.72) 100%);
   background-clip: text;
@@ -803,7 +803,7 @@ body {
 }
 
 .work .card-list .item a .text .title-area .tag {
-  font-size: 12px;
+  font-size:.75rem;
   line-height: 100%;
   font-weight: 500;
   padding: 4px 8px;
@@ -842,8 +842,8 @@ body {
 
 .work .card-list .item a .text .desc {
   width: 100%;
-  font-size: 12px;
-  line-height: 20px;
+  font-size:.75rem;
+  line-height:1.25rem;
   color: #B3B3C1;
 }
 
@@ -949,8 +949,8 @@ body {
 }
 
 .blog .blog-list .item a .text .title-area .title .name {
-  font-size: 16px;
-  line-height: 28px;
+  font-size:1rem;
+  line-height:1.75rem;
   font-weight: 500;
   background: linear-gradient(180deg, #E8E8F6 0%, rgba(232, 232, 246, 0.72) 100%);
   background-clip: text;
@@ -960,8 +960,8 @@ body {
 }
 
 .blog .blog-list .item a .text .title-area .title .link {
-  font-size: 16px;
-  line-height: 28px;
+  font-size:1rem;
+  line-height:1.75rem;
   font-weight: 500;
   color: #6361DC;
   opacity: 0;
@@ -969,16 +969,16 @@ body {
 }
 
 .blog .blog-list .item a .text .title-area .tag {
-  font-size: 14px;
-  line-height: 24px;
+  font-size:.875rem;
+  line-height:1.5rem;
   font-weight: 400;
   color: #62616F;
 }
 
 .blog .blog-list .item a .text .desc {
   width: 100%;
-  font-size: 14px;
-  line-height: 24px;
+  font-size:.875rem;
+  line-height:1.5rem;
   font-weight: 400;
   color: #B3B3C1;
 }
@@ -999,15 +999,15 @@ body {
 }
 
 .blog .blog-list .item a .info .info-name {
-  font-size: 12px;
-  line-height: 20px;
+  font-size:.75rem;
+  line-height:1.25rem;
   font-weight: 400;
   color: #B3B3C1;
 }
 
 .blog .blog-list .item a .info .info-time {
-  font-size: 12px;
-  line-height: 20px;
+  font-size:.75rem;
+  line-height:1.25rem;
   font-weight: 400;
   color: #62616F;
 }
@@ -1047,7 +1047,7 @@ body {
 }
 
 .about .about-name {
-  font-size: 32px;
+  font-size:2rem;
   line-height: 100%;
   font-weight: 700;
   margin-bottom: 48px;
@@ -1063,7 +1063,7 @@ body {
 }
 
 .about .about-info-title {
-  font-size: 18px;
+  font-size:1.125rem;
   line-height: 100%;
   font-weight: 500;
   margin-bottom: 24px;
@@ -1078,14 +1078,14 @@ body {
 }
 
 .about .about-info-left .introduce-desc {
-  font-size: 14px;
-  line-height: 24px;
+  font-size:.875rem;
+  line-height:1.5rem;
   color: #B3B3C1;
 }
 
 .about .about-info-left .introduce-desc a {
-  font-size: 14px;
-  line-height: 24px;
+  font-size:.875rem;
+  line-height:1.5rem;
   font-weight: 500;
   text-decoration: underline;
   color: #B3B3C1;
@@ -1104,8 +1104,8 @@ body {
 }
 
 .about .about-info-right .contact-desc {
-  font-size: 14px;
-  line-height: 24px;
+  font-size:.875rem;
+  line-height:1.5rem;
   color: #B3B3C1;
 }
 
@@ -1115,13 +1115,13 @@ body {
 }
 
 .about .about-info-right .contact-desc .list .list-label {
-  font-size: 14px;
-  line-height: 24px;
+  font-size:.875rem;
+  line-height:1.5rem;
 }
 
 .about .about-info-right .contact-desc .list .list-value a {
-  font-size: 14px;
-  line-height: 24px;
+  font-size:.875rem;
+  line-height:1.5rem;
   color: #B3B3C1;
   transition: color .15s ease-in;
   text-decoration: underline;
@@ -1153,8 +1153,8 @@ body {
 }
 
 .about .about-info-right .resume-desc .resume-desc-helptext {
-  font-size: 12px;
-  line-height: 20px;
+  font-size:.75rem;
+  line-height:1.25rem;
   color: #62616F;
   margin-bottom: 16px;
 }
@@ -1173,8 +1173,8 @@ body {
 }
 
 .about .about-info-right .resume-desc .resume-btn a {
-  font-size: 12px;
-  line-height: 20px;
+  font-size:.75rem;
+  line-height:1.25rem;
   color: #E8E8F6;
   text-decoration: none;
 }
@@ -1254,8 +1254,8 @@ body {
 }
 
 .about .about-middle .power .power-card a .card-text {
-  font-size: 12px;
-  line-height: 20px;
+  font-size:.75rem;
+  line-height:1.25rem;
   color: #B3B3C1;
   opacity: .8;
   transition: opacity .2s;
@@ -1283,8 +1283,8 @@ body {
 }
 
 .about .about-middle .power .power-card-number a .card-title {
-  font-size: 18px;
-  line-height: 28px;
+  font-size:1.125rem;
+  line-height:1.75rem;
   font-weight: 500;
   background: linear-gradient(180deg, #E8E8F6 0%, rgba(232, 232, 246, 0.72) 100%);
   background-clip: text;
@@ -1295,8 +1295,8 @@ body {
 }
 
 .about .about-middle .power .power-card-number a .card-text {
-  font-size: 12px;
-  line-height: 20px;
+  font-size:.75rem;
+  line-height:1.25rem;
   color: #B3B3C1;
   opacity: .8;
   transition: opacity .2s;
@@ -1323,8 +1323,8 @@ body {
 }
 
 .about .about-bottom .experience .item .time {
-  font-size: 14px;
-  line-height: 24px;
+  font-size:.875rem;
+  line-height:1.5rem;
   color: #B3B3C1;
 }
 
@@ -1335,8 +1335,8 @@ body {
 }
 
 .about .about-bottom .experience .item .name .company a {
-  font-size: 14px;
-  line-height: 24px;
+  font-size:.875rem;
+  line-height:1.5rem;
   color: #B3B3C1;
   transition: color .15s ease-in;
 }
@@ -1346,8 +1346,8 @@ body {
 }
 
 .about .about-bottom .experience .item .name .job {
-  font-size: 12px;
-  line-height: 20px;
+  font-size:.75rem;
+  line-height:1.25rem;
   color: #62616F;
 }
 
@@ -1364,8 +1364,8 @@ body {
 }
 
 .about .about-bottom .experience .item .project-experience .item .title {
-  font-size: 14px;
-  line-height: 24px;
+  font-size:.875rem;
+  line-height:1.5rem;
   font-weight: 500;
   background: linear-gradient(180deg, #E8E8F6 0%, rgba(232, 232, 246, 0.72) 100%);
   background-clip: text;
@@ -1378,8 +1378,8 @@ body {
 }
 
 .about .about-bottom .experience .item .project-experience .item .desc li {
-  font-size: 14px;
-  line-height: 28px;
+  font-size:.875rem;
+  line-height:1.75rem;
   list-style: circle;
 }
 
@@ -1426,3 +1426,4 @@ body {
   visibility: visible;
   opacity: 1;
 }
+html{font-size:1rem}@media screen and (min-width:1921px){html{font-size:20px}body{line-height:1.6}}@media screen and (min-width:2401px){html{font-size:24px}body{line-height:1.6}}
