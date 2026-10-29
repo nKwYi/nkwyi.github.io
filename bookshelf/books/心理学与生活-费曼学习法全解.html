@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" style="color-scheme: dark;">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>《心理学与生活》费曼学习法全解</title>
-<style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《心理学与生活》费曼学习法全解 · 五本书架</title>
+    <link rel="stylesheet" href="../../css/style.min.css">
+    <link rel="shortcut icon" href="../../assets/public/favicon.svg"/>
+    <style>
 /* ============================================================
    拆书 HTML 样式表 · 浅色苹果现代风（黑白灰）
    设计要点：
@@ -12,26 +14,7 @@
    2) 字号用 em 跟随 --fs，4K 分档只改一个变量，全部元素同比放大
    3) 图表是矢量，任何宽度都清晰；CSS 不再把它们压成缩略图
    ============================================================ */
-:root{
-  --bg:#ffffff;
-  --panel:#ffffff;
-  --panel2:#f5f5f7;
-  --panel3:#ececee;
-  --fg:#1d1d1f;
-  --muted:#6e6e73;
-  --muted2:#86868b;
-  --line:rgba(0,0,0,.10);
-  --line2:rgba(0,0,0,.18);
-  --accent:#1d1d1f;
-  --accent2:#3a3a3c;
-  --code-bg:#f5f5f7;
-  --shadow-s:0 1px 2px rgba(0,0,0,.05);
-  --shadow-m:0 2px 6px rgba(0,0,0,.05), 0 14px 36px rgba(0,0,0,.07);
-  --shadow-l:0 4px 12px rgba(0,0,0,.07), 0 24px 56px rgba(0,0,0,.10);
-  --r-s:10px; --r-m:14px; --r-l:20px;
-  /* 排版档位：4K 下逐档放大（配合下面的媒体查询） */
-  --fs:18px; --maxw:1240px; --sidew:304px; --pad:64px;
-}
+:root{--bg:#0E0E13; --panel:#17171F; --panel2:#1B1B25; --panel3:#232330; --fg:#E8E8F6; --muted:#9A9AB0; --muted2:#7A7A90; --line:rgba(255,255,255,.10); --line2:rgba(255,255,255,.18); --accent:#6361DC; --accent2:#8E8CE8; --code-bg:#1F1F2A; --shadow-s:0 1px 2px rgba(0,0,0,.4); --shadow-m:0 2px 6px rgba(0,0,0,.4),0 14px 36px rgba(0,0,0,.5); --shadow-l:0 4px 12px rgba(0,0,0,.5),0 24px 56px rgba(0,0,0,.6); --r-s:10px; --r-m:14px; --r-l:20px; --fs:18px; --maxw:1240px; --sidew:304px; --pad:64px;}
 @media (min-width:1800px){ :root{ --fs:19.5px; --maxw:1360px; --sidew:330px; --pad:76px; } }
 @media (min-width:2400px){ :root{ --fs:21.5px; --maxw:1560px; --sidew:372px; --pad:96px; } }
 @media (min-width:3200px){ :root{ --fs:24px;   --maxw:1800px; --sidew:424px; --pad:120px; } }
@@ -273,9 +256,57 @@ details>summary:focus-visible{outline:2px solid var(--line2); outline-offset:3px
   a{color:#000; text-decoration:none}
 }
 
+
+/* ===== 主站风格融合覆盖 ===== */
+html,body{background:#0E0E13 !important;color:#E8E8F6 !important}
+#layout{min-height:0;max-width:calc(var(--maxw) + var(--sidew));margin:0 auto}
+#side{top:76px;height:calc(100vh - 76px);background:rgba(27,27,37,.9);border-right:1px solid rgba(255,255,255,.08);backdrop-filter:blur(10px)}
+main{padding:2em 2.2em 4em}
+body tr:nth-child(even) td{background:rgba(255,255,255,.03)}
+thead th{background:rgba(23,23,31,.9)}
+blockquote{border-left-color:#6361DC}
+a{color:#8E8CE8}
+a:hover{color:#B3B1FF;text-decoration-color:#8E8CE8}
+
+.book-frame{background:rgba(23,23,31,.55);border:1px solid rgba(255,255,255,.08);border-radius:24px;margin:1.4em auto 4em;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.4),0 24px 56px rgba(0,0,0,.5)}
+@media (max-width:768px){.book-frame{border-radius:14px;margin:1em .6em 3em}}
 </style>
 </head>
 <body>
+    <canvas class="fireworks"></canvas>
+    <div class="head">
+        <div class="main">
+            <a href="../../index.html" class="logo"><img src="../../assets/public/nK logo.svg"></a>
+            <div class="menu">
+                <li class="magical btn" onclick="window.location.href='../../index.html'">首页</li>
+                <li class="magical btn" onclick="window.location.href='../../work.html'">作品集</li>
+                <li class="magical btn" onclick="window.location.href='../../about.html'">关于</li>
+                <li class="magical btn nav" onclick="window.location.href='../index.html'">书架</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn" onclick="window.location.href='../../index.html'">首页</li>
+                    <li class="magical btn" onclick="window.location.href='../../work.html'">作品集</li>
+                    <li class="magical btn" onclick="window.location.href='../../about.html'">关于</li>
+                    <li class="magical btn nav" onclick="window.location.href='../index.html'">书架</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="../../assets/public/logo.svg"></blockquote>
+    </div>
+    <div class="index">
+        <div class="hello">
+            <div class="title">
+                <div class="title-hi">《心理学与生活》费曼学习法全解</div>
+                <div class="hello-desc">格里格 / 津巴多 Psychology and Life — 16 章逐章拆解 · 图示化版</div>
+            </div>
+        </div>
+        <div class="content-divider"></div>
+        <div class="book-frame">
+
 <div id="layout">
   <nav id="side">
     <h1>《心理学与生活》费曼学习法全解</h1>
@@ -19395,5 +19426,27 @@ python3 /workspace/output/verify_new_books.py</code></pre>
   window.onbeforeprint=function(){expandForPrint();};
 })();
 </script>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <div>© 2025 Design by <a href="https://asorn.cn/" target="_blank">nKwYi</a></div>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="shape-light"></div>
+        <div class="shape-star">
+            <div class="rising-stars rising-stars-visible">
+                <div style="height:1px;width:1px"></div>
+                <div style="height:2px;width:2px"></div>
+                <div style="height:1px;width:1px"></div>
+            </div>
+        </div>
+        <div class="shape-earth"></div>
+    </div>
 </body>
+<script src="../../js/main.min.js"></script>
+<script src='../../js/anime.js'></script>
+<script src='../../js/firework.js'></script>
 </html>
